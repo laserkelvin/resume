@@ -1,132 +1,147 @@
-Christophe-Marie Duquesne
+Kin Long Kelvin Lee
 =========================
 
 ----
 
->  Specialties: C++, Python, Linux, Operations Research\
->  Doctor in Computer Science and Mathematics
+>  Specialties: Python, Deep Learning, Probabilistic Models, Chemistry, Spectroscopy, Grant Procurement
+
+>  __PhD in Chemistry, BSc (H1) in Chemistry/Plant Sciences__
 
 ----
 
-Corporate Experience
+Professional Experience
 --------------------
 
-Since 2013
-:   *Data Scientist for [Airconomy](https://www.airconomy.com/)*
-    (Frankfurt am Main, Germany).
+Since Feb 2017
+:   *Postdoctoral Researcher at Center for Astrophysics | Harvard & Smithsonian*
+    (Cambridge, MA)
 
-    Data mining on various sources to forecast passenger demands over
-    airline networks.
+    Worked on many diverse research projects at the intersection of Astronomy,
+    Chemistry, and Data Science with Dr. Michael McCarthy. The general theme of
+    my research has been on investigating the role of chemistry in
+    astrophysical processes, and developing novel methods for automating data
+    analysis. Over the last three years, I have __published 21 peer-reviewed
+    articles__ in high-impact journals. Three of my most recent projects
+    include:
 
-2009-2012
-:   *PhD in Operations Research with
-    [Amadeus](http://www.amadeus.com/amadeus/amadeus.html)* (Sophia
-    Antipolis, France).
+    - Identification of unknown molecules using probabilistic deep learning models
+      - Developed high performance, probabilistic neural network architectures that infer stochiometries and functionalization in unknown molecules.
+    - [Accuracy and uncertainty benchmarking of quantum chemical methods with Bayesian methods.](https://pubs.acs.org/doi/10.1021/acs.jpca.9b09982)
+      - Determined systematic uncertainties with low-cost electronic structure theory using Hamiltonian Monte Carlo models.
+    - [Developed open-source tools for analyzing broadband spectral data](https://pubs.acs.org/doi/abs/10.1021/acs.jpclett.9b00586)
+      - Developed [Python library](https://laserkelvin.github.io/PySpecTools/) that helps manage analysis of rotational
+      spectra consisting of hundreds of spectral features, and up to 100
+      distinct species.
 
-    Researched how to assign aircraft on an airline network in the most
-    efficient way. I authored several projects, including a C++ solver,
-    a Python suite of 20+ command line tools, and Hadoop data mining
-    scripts. I also worked as a teaching assistant at the university,
-    further improving my communication and public speaking skills.
+    I also actively took part in promoting programming literacy and mentoring
+    programs, particularly with the NSF funded Latino Initiative. Each summer,
+    I teach a workshop on reproducibile scientific workflows and coding
+    practices in Python. I have also mentored four graduate students working on
+    various projects in the laboratory, which have allowed me to build my
+    leadership skills.
 
-2008 (3 months)
-:   *Internship at [Rio Tinto Alcan](http://www.riotintoalcan.com/)*
-    (Clermont Ferrand, France).
+    Over the last three years, I have played an active role in securing public
+    funding; I am co-investigator on grants from the Smithsonian Institution
+    and National Science Foundation worth over $500,000.
 
-    Co-authored a C++ library for optimizing the revenue of a metal
-    factory. This work was published in the corporate journal of the
-    company.
+Aug 2016-Feb 2017
+:   *Postdoctoral Researcher at University of New South Wales*
+    (Kable group - Sydney, Australia)
 
-2007 (3 months)
-:   *Internship at [GE
-    Healthcare](http://www3.gehealthcare.com/en/Global_Gateway)* (Paris,
-    France).
+    Researched the photochemistry of atmospheric molecules using a combination
+    of laser spectroscopy and velocity-mapped ion imaging techniques; how molecules
+    in the atmosphere are destroyed by light. Part of my responsibilities included
+    maintenance of ns-laser systems and high vacuum equipment, as well as preparation
+    of manuscripts for publication. I also developed several Python tools for automated
+    analysis of ion images and for analyzing trajectory simulations of chemical reactions.
 
-    Elaborated an UML spec for the refactoring of 20.000 lines of C++.
+Mar 2013-Aug 2016
+:   *PhD in Chemistry at University of New South Wales*
+    (Sydney, Australia)
 
-Selected Open Source Contributions
-----------------------------------
+    Researched how molecules (pollutants) undergo photodissociation in
+    the atmosphere; particularly acetone and nitrous oxide. Over the course
+    of my PhD, I published four articles in major peer-reviewed journals.
+    As part of my studies, I developed skills in academic/report writing,
+    reproducible workflows in Python, and the operation of lasers and high
+    vacuum equipment.
+
+    Over the course of my PhD studies, I presented my work at six international
+    conferences, and won two early-career researcher awards. During this
+    time I also worked as a Postgraduate Teaching Fellow, where I taught
+    undergraduate tutorials.
+
+
+Selected Open-source Contributions
+-------------------------
 
 Python
-:   Contributor to [pulp-or](http://code.google.com/p/pulp-or/), a
-    linear programming Python library. Author of small tools, like
-    [michel](https://github.com/chmduquesne/michel), a command line
-    program providing bidirectionnal synchronization of google tasks
-    with text files.
+:   [PySpecTools](https://laserkelvin.github.io/PySpecTools/) is a library I
+    developed to help analyze broadband spectral data with an emphasis on
+    reproducibility and collaobration.
+:   [FTSpecViewer](https://github.com/laserkelvin/FTSpecViewer) application written in Python and Qt5 to process Fourier-transform microwave data.
+:   [Repro-repo](https://github.com/laserkelvin/repro-repo) cookiecutter template I designed to promote simple reproducible projects.
+:   [Spectron3000](https://github.com/laserkelvin/Spectron3000) web app written with Dash for viewing astronomical spectra.
+:   [RMG](https://github.com/laserkelvin/rmg) Python program for graph-based generation of molecules.
 
-C++
-:   Author of
-    [yaposib](http://yaposib.readthedocs.org/en/latest/index.html), a
-    Python binding to COIN-OSI that is now supported by
-    [pulp-or](http://code.google.com/p/pulp-or/).
+My [Github repository](https://github.com/laserkelvin) contains all of the coding projects I have worked on.
 
-C
-:   Author of
-    [lazylpsolverlibs](https://code.google.com/p/lazylpsolverlibs/), a
-    set of proxy libraries targeting cplex, gurobi and xpress. I also
-    started writing
-    [sharebox](https://github.com/chmduquesne/sharebox-fs), a
-    distributed FUSE file system based on git.
 
-Java
-:   Author of [talkmyphone](http://code.google.com/p/talkmyphone/), an
-    android application allowing phone control via gtalk. It had 10.000+
-    downloads, and was forked 50 times. It was then successfully handed
-    over to [other developers](http://code.google.com/p/gtalksms/).
+<br />
+<br />
+<br />
+<br />
+<br />
 
-Misc
-:   Lua, Ada, Bash, Makefile, m4, autotools, cmake... See my [github
-    résumé](http://resume.github.com/?chmduquesne). My
-    [kudorank](http://meta.ohloh.net/kudos/) on ohloh is 9, among the
-    top 2% of opensource developers.
 
-Linux
-:   My daily operating system: I [blog](http://blog.chmd.fr) about it
-    sometimes.
+
+
+
+
+
+Skills & Expertise
+------------------
+
+Python
+:   General object-oriented programming and development with Python 3.
+:   Exploratory data analysis and data pipeline design with `numpy`, `dask`, `pandas`.
+:   Data visualization using `matplotlib`, `plotly`, and `bokeh`.
+:   Baseline machine learning models with `scikit-learn`.
+:   Deep learning models with PyTorch and Tensorflow.
+:   Probabilstic Bayesian models with `pymc3`
+
+ Writing
+:   Author of 21 peer-reviewed articles for expert audiences.
+:   Writer on [Medium](https://medium.com/@kin.long.kelvin.lee) and TowardsDataScience for general audiences.
+:   Proficient in document workflows with LaTeX, `pandoc`, and Markdown.
+
+Oral Presentations
+:   Presented scientific results at over 18 international conferences in Chemistry and Astronomy.
+:   Presented workshops on reproducible Python and code practices to undergraduates at the Center for Astrophysics.
 
 Education
 ---------
 
-2009-2012
-:   *PhD in Mathematics and Computer Science at G-SCOP Laboratory*
-    (Grenoble, France).
+2013-2016
+:   *PhD in Chemistry at University of New South Wales*
+    (Sydney, Australia)
 
-    Title: Integration of Fleet Deployment and of Passenger Service in
-    Airline Schedule Management. Done at Amadeus, in the Operation
-    Research team led by [Semi
-    Gabteni](http://www.linkedin.com/in/semigabteni). Advisors: [Denis
-    Naddef](http://www.g-scop.inpg.fr/~naddefd/), [Olivier
-    Briant](http://www.g-scop.inpg.fr/~brianto/index.php?page=1).
-    Defended in January 2013.
+    Title: _Spectroscopy and Photodissociation of Small Atmospheric Molecules_
+    under the supervision of Professor [Scott Kable](https://research.unsw.edu.au/people/professor-scott-kable)
+    and Professor [Meredith Jordan](https://sydney.edu.au/science/about/our-people/academic-staff/meredith-jordan.html).
 
-2005-2009
-:   *MS in Computer Science in ENSIMAG* (Grenoble, France).
 
-    Top French school of Applied Mathematics and Computer Science with
-    highly selective recruitment.
+2008-2012
+:   *Bachelor of Science, First Class Honours at University of Sydney*
+    (Sydney, Australia)
 
-2002-2005
-:   *Preparatory classes in Lycée Thiers* (Marseille, France).
-
-    Mathematics and Physics courses before a national competitive
-    examination to Grandes Écoles.
-
-Activities and interests
-------------------------
-
-Hobbies
-:   I like travelling. I backpacked in 13 countries in Eastern Europe
-    and South East Asia.
-
-Sports
-:   Running, Cycling, Hiking. I also played rugby union for 7 years.
-
-Activities
-:   I was the president of the [grand
-    cercle](http://www.grandcercle.org), one of the largest French
-    campus student associations (5.000 members) during university.
+    Title: _Roaming Reaction Dynamics in Small Aldehydes_
+    under the supervision of Professor [Scott Kable](https://research.unsw.edu.au/people/professor-scott-kable)
+    and Professor [Meredith Jordan](https://sydney.edu.au/science/about/our-people/academic-staff/meredith-jordan.html).
 
 ----
 
-> <chmd@chmd.fr> • +336 84 14 26 82 • 28 years old\
->  275, chemin du Petit Castel - 13100 Aix en Provence, FRANCE
+> <kinlee@cfa.harvard.edu> • +1 857-505-9734 • 
+
+> Center for Astrophysics | Harvard & Smithsonian
+> 60 Garden Street, Cambridge MA 02138
