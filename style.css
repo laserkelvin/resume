@@ -10,21 +10,26 @@
 /* Whole document */
 body {
     font-family: "EB Garamond", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    width: 800px;
+    width: 900px;
     margin: auto;
     background: #FFFFFF;
-    padding: 10px 10px 10px 10px;
+    padding: 2px 2px 2px 2px;
+    font-size: 22px;
 }
 
 /* Modify the color of bold text */
 strong {
-  color: #5c53a5;
+    font-weight: 110;
+    color: #000000;
 }
 
 /* Title of the resume */
 h1 {
-    font-size: 40px;
-    color: #f8a07e;
+    font-size: 26px;
+    font-family: "Roboto";
+    letter-spacing: 0.12em;
+    /* color: #f8a07e; */
+    text-transform: uppercase;
     text-align:center;
     margin-bottom:15px;
 }
@@ -36,6 +41,9 @@ h1:hover {
 
 /* Titles of categories */
 h2 {
+    font-family: "Roboto Condensed";
+    text-transform: uppercase;
+    font-size: 18px;
     color: #f8a07e;
 }
 /* There is a bar just before each category */
@@ -43,7 +51,7 @@ h2:before {
     content: "";
     display: inline-block;
     margin-right:1%;
-    width: 16%;
+    width: 17%;
     height: 10px;
     background-color: #f3e79b;
 }
@@ -53,15 +61,20 @@ h2:hover {
     text-shadow: 1px 1px 1px #333;
 }
 
+h3 {
+    font-weight: normal;
+    margin-bottom: 4px;
+}
+
 /* Definitions */
 dt {
     float: left;
     clear: left;
-    width: 17%;
+    width: 20%;
     /*font-weight: bold;*/
 }
 dd {
-    margin-left: 17%;
+    margin-left: 22%;
 }
 p {
     margin-top:0;
@@ -76,6 +89,10 @@ blockquote {
 /* Links */
 a {
     text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Playfair Display";
+    font-size: 0.76em;
+    font-weight: 300;
     color: #ce6693;
 }
 a:hover, a:active {
@@ -88,4 +105,8 @@ a:hover, a:active {
 /* Horizontal separators */
 hr {
     color: #5c53a5;
+}
+
+code {
+    font-size: 18px;
 }

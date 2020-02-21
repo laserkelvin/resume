@@ -1,11 +1,11 @@
 Kin Long Kelvin Lee
 =========================
 
-----
+> Postdoctoral Researcher &#8212; Center for Astrophysics | Harvard & Smithsonian
 
->  Specialties: Python, Deep Learning, Probabilistic Models, Chemistry, Spectroscopy, Grant Procurement
+> https://laserkelvin.github.io
 
->  __PhD in Chemistry, BSc (H1) in Chemistry/Plant Sciences__
+> <kinlee@cfa.harvard.edu> • +1 857-505-9734 • 161 Kelton Street, Allston MA 02134
 
 ----
 
@@ -13,64 +13,39 @@ Professional Experience
 --------------------
 
 Since Feb 2017
-:   *Postdoctoral Researcher at Center for Astrophysics | Harvard & Smithsonian*
-    (Cambridge, MA)
+:   ### Center for Astrophysics | Harvard & Smithsonian&#8212;Cambridge, MA
+    _Postdoctoral Research Fellow_
 
-    Worked on many diverse research projects at the intersection of Astronomy,
-    Chemistry, and Data Science with Dr. Michael McCarthy. The general theme of
-    my research has been on investigating the role of chemistry in
-    astrophysical processes, and developing novel methods for automating data
-    analysis. Over the last three years, I have __published 21 peer-reviewed
-    articles__ in high-impact journals. Three of my most recent projects
-    include:
+    - Projects at the intersection of astronomy, chemistry, and data science.
+    - [22 publications to date; 86 citations.](https://scholar.google.com/citations?user=cB90fKUAAAAJ&hl=en)
+    - Experiments with high-resolution rotational spectroscopy of transient molecules.
+    - Data analysis includes probabilistic machine learning models, quantum chemistry, and distributed computing.
+    - Developed open-source tools for analyzing broadband spectra.
+    - Public outreach and mentoring activities with the NSF Latino Initiative; taught workshops on Python each summer.
+    - Co-investigator on grants from the Smithsonian Institution, National Science Foundation, and NASA; _over $500,000 USD_ in public funding.
 
-    - Identification of unknown molecules using probabilistic deep learning models
-      - Developed high performance, probabilistic neural network architectures that infer stochiometries and functionalization in unknown molecules.
-    - [Accuracy and uncertainty benchmarking of quantum chemical methods with Bayesian methods.](https://pubs.acs.org/doi/10.1021/acs.jpca.9b09982)
-      - Determined systematic uncertainties with low-cost electronic structure theory using Hamiltonian Monte Carlo models.
-    - [Developed open-source tools for analyzing broadband spectral data](https://pubs.acs.org/doi/abs/10.1021/acs.jpclett.9b00586)
-      - Developed [Python library](https://laserkelvin.github.io/PySpecTools/) that helps manage analysis of rotational
-      spectra consisting of hundreds of spectral features, and up to 100
-      distinct species.
+Aug 2016&#8212;Feb 2017
+:   ### University of New South Wales&#8212;Sydney, Australia
+    _Postdoctoral Research Fellow_
 
-    I also actively took part in promoting programming literacy and mentoring
-    programs, particularly with the NSF funded Latino Initiative. Each summer,
-    I teach a workshop on reproducibile scientific workflows and coding
-    practices in Python. I have also mentored four graduate students working on
-    various projects in the laboratory, which have allowed me to build my
-    leadership skills.
+    - Researched photochemistry of atmospheric molecules.
+    - Prepared manuscripts for publication in peer-reviewed chemistry journals.
+    - Experiments involved laser spectroscopy and ion imaging techniques.
+    - Developed open-source tools for automated analysis of ion images and trajectory simulations.
+    - High accuracy quantum chemistry of photolytic reactions.
 
-    Over the last three years, I have played an active role in securing public
-    funding; I am co-investigator on grants from the Smithsonian Institution
-    and National Science Foundation worth over $500,000.
+Mar 2013&#8212;Aug 2016
+:   ### University of New South Wales&#8212;Sydney, Australia
+    _Doctor of Philosophy in Chemistry_
 
-Aug 2016-Feb 2017
-:   *Postdoctoral Researcher at University of New South Wales*
-    (Kable group - Sydney, Australia)
+    - Researched photodestruction of atmospheric pollutants under single-molecule conditions.
+    - Experiments involved laser spectroscopy and ion imaging techniques.
+    - Developed open-source tools for automated analysis of ion images and trajectory simulations.
+    - Receipient of the _Australian Postgraduate Award_.
+    - Postgraduate teaching fellow; lead weekly tutorials for undergraduate chemistry classes.
 
-    Researched the photochemistry of atmospheric molecules using a combination
-    of laser spectroscopy and velocity-mapped ion imaging techniques; how molecules
-    in the atmosphere are destroyed by light. Part of my responsibilities included
-    maintenance of ns-laser systems and high vacuum equipment, as well as preparation
-    of manuscripts for publication. I also developed several Python tools for automated
-    analysis of ion images and for analyzing trajectory simulations of chemical reactions.
-
-Mar 2013-Aug 2016
-:   *PhD in Chemistry at University of New South Wales*
-    (Sydney, Australia)
-
-    Researched how molecules (pollutants) undergo photodissociation in
-    the atmosphere; particularly acetone and nitrous oxide. Over the course
-    of my PhD, I published four articles in major peer-reviewed journals.
-    As part of my studies, I developed skills in academic/report writing,
-    reproducible workflows in Python, and the operation of lasers and high
-    vacuum equipment.
-
-    Over the course of my PhD studies, I presented my work at six international
-    conferences, and won two early-career researcher awards. During this
-    time I also worked as a Postgraduate Teaching Fellow, where I taught
-    undergraduate tutorials.
-
+<br/>
+<br/>
 
 Selected Open-source Contributions
 -------------------------
@@ -78,26 +53,25 @@ Selected Open-source Contributions
 Python
 :   [PySpecTools](https://laserkelvin.github.io/PySpecTools/) is a library I
     developed to help analyze broadband spectral data with an emphasis on
-    reproducibility and collaobration.
+    reproducibility and collaboration.
 :   [FTSpecViewer](https://github.com/laserkelvin/FTSpecViewer) application written in Python and Qt5 to process Fourier-transform microwave data.
-:   [Repro-repo](https://github.com/laserkelvin/repro-repo) cookiecutter template I designed to promote simple reproducible projects.
+:   [Repro-repo](https://github.com/laserkelvin/repro-repo) cookie-cutter template I designed to promote simple reproducible projects.
 :   [Spectron3000](https://github.com/laserkelvin/Spectron3000) web app written with Dash for viewing astronomical spectra.
 :   [RMG](https://github.com/laserkelvin/rmg) Python program for graph-based generation of molecules.
 
 My [Github repository](https://github.com/laserkelvin) contains all of the coding projects I have worked on.
 
+Selected Recent Projects
+------------------------
 
-<br />
-<br />
-<br />
-<br />
-<br />
-
-
-
-
-
-
+- [Supervised characterization of miniature spectrometer designed for spacecraft/rover missions](https://pubs.acs.org/doi/abs/10.1021/acs.jpca.9b10548)
+  - Spectrometer designed by the Jet Propulsion Laboratory for trace detection of salts and organic molecules using rotational spectroscopy.
+- Identification of unknown molecules using probabilistic deep learning models
+  - Developed high performance, probabilistic neural network architectures that infer stochiometries and functionalization in unknown molecules from rotational spectroscopy parameters.
+- [Accuracy and uncertainty benchmarking of quantum chemical methods with Bayesian methods.](https://pubs.acs.org/doi/10.1021/acs.jpca.9b09982)
+  - Determined systematic uncertainties with low-cost electronic structure theory using Hamiltonian Monte Carlo models.
+- [Developed open-source tools for analyzing broadband spectral data](https://pubs.acs.org/doi/abs/10.1021/acs.jpclett.9b00586)
+  - Developed [PySpectools, a Python library](https://laserkelvin.github.io/PySpecTools/) that helps manage analysis of rotational spectra consisting of hundreds of spectral features and distinct species.
 
 Skills & Expertise
 ------------------
@@ -111,37 +85,35 @@ Python
 :   Probabilstic Bayesian models with `pymc3`
 
  Writing
-:   Author of 21 peer-reviewed articles for expert audiences.
+:   Author of 22 peer-reviewed articles for expert audiences.
 :   Writer on [Medium](https://medium.com/@kin.long.kelvin.lee) and TowardsDataScience for general audiences.
 :   Proficient in document workflows with LaTeX, `pandoc`, and Markdown.
 
 Oral Presentations
 :   Presented scientific results at over 18 international conferences in Chemistry and Astronomy.
-:   Presented workshops on reproducible Python and code practices to undergraduates at the Center for Astrophysics.
+:   Presented workshops on reproducible Python and code practices to undergraduates at the Center for Astrophysics | Harvard & Smithsonian.
+
+Experimental Techniques
+:   Pulsed laser maintenance and operation.
+:   High vacuum technology.
+:   High speed radio and microwave electronics.
 
 Education
 ---------
 
-2013-2016
-:   *PhD in Chemistry at University of New South Wales*
-    (Sydney, Australia)
+2013&#8212;2016
+:   ### University of New South Wales&#8212;Sydney, Australia
+    _Doctor of Philosophy in Chemistry_
 
-    Title: _Spectroscopy and Photodissociation of Small Atmospheric Molecules_
-    under the supervision of Professor [Scott Kable](https://research.unsw.edu.au/people/professor-scott-kable)
-    and Professor [Meredith Jordan](https://sydney.edu.au/science/about/our-people/academic-staff/meredith-jordan.html).
+    Title: _Spectroscopy and Photodissociation of Small Atmospheric Molecules_ under the supervision of Professor Scott Kable and Professor Meredith Jordan.
 
 
-2008-2012
-:   *Bachelor of Science, First Class Honours at University of Sydney*
-    (Sydney, Australia)
+2008&#8212;2012
+:   ### University of Sydney&#8212;Sydney, Australia
+    _Bachelor of Science; First Class Honours in Chemistry & Plant Sciences_
 
-    Title: _Roaming Reaction Dynamics in Small Aldehydes_
-    under the supervision of Professor [Scott Kable](https://research.unsw.edu.au/people/professor-scott-kable)
-    and Professor [Meredith Jordan](https://sydney.edu.au/science/about/our-people/academic-staff/meredith-jordan.html).
+    Title: _Roaming Reaction Dynamics in Small Aldehydes_ under the supervision of Professor Scott Kable and Professor Meredith Jordan.
 
 ----
 
-> <kinlee@cfa.harvard.edu> • +1 857-505-9734 • 
-
-> Center for Astrophysics | Harvard & Smithsonian
-> 60 Garden Street, Cambridge MA 02138
+> <kinlee@cfa.harvard.edu> • +1 857-505-9734 • 161 Kelton Street, Allston MA 02134
