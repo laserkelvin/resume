@@ -20,6 +20,7 @@ Since Feb 2017
     - [Co-authored 22 publications to date with 89 citations](https://scholar.google.com/citations?user=cB90fKUAAAAJ&hl=en), as a project leader and as part of large teams.
     - Lead successful grant proposals as co-investigator from the Smithsonian Institution, National Science Foundation, and NASA; _raised over $500,000 USD_ in public funding.
     - Developed machine learning models and open-source frameworks for automated analysis of wide band spectroscopic data.
+    - Created productive collaborations between the Center for Astrophysics and international groups, facilitated with open-sourced tools I developed.
     - Mentored early career researchers on scientific and numerical Python, and reproducibile workflows.
     - Used quantum chemical calculations to guide microwave spectroscopy experiments of transient molecules.
 
@@ -27,22 +28,12 @@ Aug 2016&#8212;Feb 2017
 :   ### University of New South Wales&#8212;Sydney, Australia
     _Postdoctoral Research Fellow_
 
-    - Researched photochemistry of atmospheric molecules.
-    - Prepared manuscripts for publication in peer-reviewed chemistry journals.
-    - Experiments involved laser spectroscopy and ion imaging techniques.
+    - Researched photochemistry of atmospheric molecules; destruction of pollutants under UV irradiation.
+    - Lead the experiments, analysis, and dissemination of multiple research projects through peer-reviewed publications and oral presentations at international conferences.
     - Mentored undergraduate students on theoretical and experimental research projects.
     - Developed open-source tools for automated analysis of ion images and trajectory simulations.
-    - High accuracy quantum chemistry of photolytic reactions.
+    - High accuracy quantum chemical calculations of photolytic reactions of pollutants; quasi-classical trajectory simulations of how molecules dissociate.
 
-Mar 2013&#8212;Aug 2016
-:   ### University of New South Wales&#8212;Sydney, Australia
-    _Doctor of Philosophy in Chemistry_
-
-    - Researched photodestruction of atmospheric pollutants under single-molecule conditions.
-    - Experiments involved laser spectroscopy and ion imaging techniques.
-    - Developed open-source tools for automated analysis of ion images and trajectory simulations.
-    - Receipient of the _Australian Postgraduate Award_.
-    - Worked as postgraduate teaching fellow; lead weekly tutorials for undergraduate chemistry classes.
 
 Selected Open-source Contributions
 -------------------------
@@ -74,26 +65,30 @@ Selected Recent Projects
 
 Skills & Expertise
 ------------------
-
-High-performance computing
+Computing
 :   Distributed computing workflows on national and institiutional HPC platforms.
 :   Massively parallel quantum chemistry calculations.
-
-Python
+:   Efficient computational workflows with `numpy` and `julia`.
+:   Source control managment with `git` and `dvc`.
+:   Reproducible environments with `conda` and `docker`.
+:   Exploratory data analysis with Jupyter/Google Co-Labs.
 :   General object-oriented programming and development with Python 3.
+
+Data analysis
 :   Exploratory data analysis and data pipeline design with `numpy`, `dask`, `pandas`.
 :   Data visualization using `matplotlib`, `plotly`, and `bokeh`.
 :   Baseline machine learning models with `scikit-learn`.
 :   Deep learning models with PyTorch and Tensorflow.
-:   Probabilstic Bayesian models with `pymc3`.
+:   Probabilstic model (e.g. Monte Carlo methods) development with `pymc3` and `Flux.jl`.
 
 Writing
-:   Author of 22 peer-reviewed articles for expert audiences.
 :   Review Editor of open-access journal “Frontiers of Astronomy and Space Science”.
+:   Author of 22 peer-reviewed articles for expert audiences.
 :   Writer on [Medium](https://medium.com/@kin.long.kelvin.lee) and TowardsDataScience for general audiences.
 :   Proficient in document workflows with LaTeX, `pandoc`, and Markdown.
 
 Oral Presentations
+:   Reviewer for SciPy 2020.
 :   Presented scientific results at over 18 international conferences in Chemistry and Astronomy.
 :   Presented workshops on reproducible Python and code practices to undergraduates at the Center for Astrophysics | Harvard & Smithsonian.
 
