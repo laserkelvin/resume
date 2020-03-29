@@ -17,23 +17,30 @@ Since Feb 2017
     _Postdoctoral Research Fellow_
 
     - Worked on novel research projects at the intersection of astronomy, chemistry, and data science.
-    - [Co-authored 22 publications to date with 89 citations](https://scholar.google.com/citations?user=cB90fKUAAAAJ&hl=en), as a project leader and as part of large teams.
+    - [Co-authored 16 publications; six as lead author](https://scholar.google.com/citations?user=cB90fKUAAAAJ&hl=en), one as project leader, and remainder as part of large teams.
     - Lead successful grant proposals as co-investigator from the Smithsonian Institution, National Science Foundation, and NASA; _raised over $500,000 USD_ in public funding.
     - Developed machine learning models and open-source frameworks for automated analysis of wide band spectroscopic data.
-    - Created productive collaborations between the Center for Astrophysics and international groups, facilitated with open-sourced tools I developed.
+    - Created productive collaborations between the Center for Astrophysics and international groups, facilitated by open-sourced tools I developed.
     - Mentored early career researchers on scientific and numerical Python, and reproducibile workflows.
-    - Used quantum chemical calculations to guide microwave spectroscopy experiments of transient molecules.
+    - Performed quantum chemical calculations to guide microwave spectroscopy experiments of transient molecules.
+    - Reviewed new research articles in major publications: role as referee/reviewer on 13 manuscripts.
 
 Aug 2016&#8212;Feb 2017
 :   ### University of New South Wales&#8212;Sydney, Australia
     _Postdoctoral Research Fellow_
 
-    - Researched photochemistry of atmospheric molecules; destruction of pollutants under UV irradiation.
+    - Researched photochemistry of atmospheric molecules; destruction of pollutants under UV irradiation by lasers.
     - Lead the experiments, analysis, and dissemination of multiple research projects through peer-reviewed publications and oral presentations at international conferences.
-    - Mentored undergraduate students on theoretical and experimental research projects.
+    - Published five publications in major peer-reviewed journals; three as lead author.
+    - Mentored undergraduate students on various theoretical and experimental research projects.
     - Developed open-source tools for automated analysis of ion images and trajectory simulations.
     - High accuracy quantum chemical calculations of photolytic reactions of pollutants; quasi-classical trajectory simulations of how molecules dissociate.
 
+<br>
+<br>
+<br>
+<br>
+<br>
 
 Selected Open-source Contributions
 -------------------------
@@ -71,7 +78,7 @@ Computing
 :   Efficient computational workflows with `numpy` and `julia`.
 :   Source control managment with `git` and `dvc`.
 :   Reproducible environments with `conda` and `docker`.
-:   Exploratory data analysis with Jupyter/Google Co-Labs.
+:   Exploratory data analysis in notebook environments.
 :   General object-oriented programming and development with Python 3.
 
 Data analysis
@@ -79,11 +86,11 @@ Data analysis
 :   Data visualization using `matplotlib`, `plotly`, and `bokeh`.
 :   Baseline machine learning models with `scikit-learn`.
 :   Deep learning models with PyTorch and Tensorflow.
-:   Probabilstic model (e.g. Monte Carlo methods) development with `pymc3` and `Flux.jl`.
+:   Probabilstic model (e.g. Monte Carlo methods) development with `pymc3`, `pyro`, and `Flux.jl`.
 
-Writing
+Written communication
+:   Author of 21 peer-reviewed articles for expert audiences; 94 citations to date.
 :   Review Editor of open-access journal “Frontiers of Astronomy and Space Science”.
-:   Author of 22 peer-reviewed articles for expert audiences.
 :   Writer on [Medium](https://medium.com/@kin.long.kelvin.lee) and TowardsDataScience for general audiences.
 :   Proficient in document workflows with LaTeX, `pandoc`, and Markdown.
 
@@ -99,6 +106,13 @@ Experimental Techniques
 
 Education
 ---------
+
+2020
+:   ### Coursera
+    _Deep Learning Specialization_
+
+    - Completed three out of five courses required for this specialization.
+    - Foundations for projects in machine learning and deep learning by deeplearning.ai
 
 2013&#8212;2016
 :   ### University of New South Wales&#8212;Sydney, Australia
