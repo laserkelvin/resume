@@ -14,9 +14,10 @@ body {
     margin: auto;
     background: #FFFFFF;
     padding: 2px 2px 2px 2px;
-    font-size: 22px;
+    font-size: 16px;
     font-feature-settings: "smcp" on;
     text-rendering: optimizeLegibility;
+    font-weight: 400;
 }
 
 /* Modify the color of bold text */
@@ -27,7 +28,7 @@ strong {
 
 /* Title of the resume */
 h1 {
-    font-size: 26px;
+    font-size: 21px;
     font-family: "Roboto";
     letter-spacing: 0.12em;
     /* color: #f8a07e; */
@@ -77,6 +78,7 @@ dt {
 }
 dd {
     margin-left: 22%;
+    padding-bottom:7x;
 }
 p {
     margin-top:0;
@@ -92,9 +94,8 @@ blockquote {
 a {
     text-decoration: none;
     font-variant: small-caps;
-    font-family: "Playfair Display";
-    font-size: 0.76em;
-    font-weight: 300;
+    font-size: 15px;
+    font-weight: 400;
     color: #5c53a5;
 /*    color: #ce6693; */
 }
@@ -111,5 +112,15 @@ hr {
 }
 
 code {
-    font-size: 18px;
+    font-size: 12px;
+}
+
+@media print {
+  .new-page {
+    page-break-before: always;
+  }
+}
+
+#education {
+  page-break-before: always;
 }
