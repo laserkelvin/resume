@@ -1,4 +1,4 @@
-all: index.html index.pdf index.docx index.txt
+all: html pdf
 
 html: index.md style.css
 	pandoc --standalone -c style.css --from markdown --to html -o index.html index.md
