@@ -1,0 +1,165 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Resume for {{ author }}</title>
+  <meta name="author" content="{{ author }}">
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <h1 id="author-name">{{ author }} 
+            <!-- This loops over as many suffixes (e.g. MD PhD) as you want -->
+            {% for suffix in suffixes %}
+                {{ suffix }}
+            {% endfor %}
+        </h1>
+        <ul class="single-line-list">
+            <li><i class="fa fa-envelope"></i> {{ email }}</li>
+            <li><i class="fa fa-phone"></i> {{ phone }}</li>
+            <li><i class="fa fa-linkedin"></i> {{ linkedin }}</li>
+            <li><i class="fa fa-address-card"></i> {{ address }}</li>
+        </ul>
+    </header>
+    <main>
+        {% if verbose %}
+        <div>
+            <h2>Profile</h2>
+            <p>
+                {{ profile }}
+            </p>
+        </div>
+        {% endif %}
+        <div>
+            <h2>Professional experience</h2>
+            {% for position in experience %}
+            <ul class="three-col">
+                <p class="jobtitle">{{ position.position }}</p>
+                <p>{{ position.company }}</p>
+                <p>{{ position.start }}–{{ position.end }}</p>
+            </ul>
+            {% if verbose and position.description %}
+            <p>{{ position.description }}</p>
+            {% endif %}
+            {% endfor %}
+        </div>
+        <div>
+            <h2>Education</h2>
+            {% for degree in education %}
+            <ul class="three-col">
+                <p class="jobtitle">{{ degree.degree }}</p>
+                <p>{{ degree.institution }}</p>
+                <p>{{ degree.year }}</p>
+            </ul>
+            {% endfor %}
+        </div>
+        <!-- Teaching and mentoring stuffs -->
+        <div>
+            <h2>Teaching, mentoring, and outreach</h2>
+            {% for experience in teaching %}
+            <ul class="three-col">
+                <p class="jobtitle">{{ experience.course }}</p>
+                <p>{{ experience.description }}</p>
+                <p>{{ experience.year }} </p>
+            </ul>
+            {% endfor %}
+            <h3>Past and current Mentees</h3>
+            <p>
+            {% for mentee in mentees %}
+                &bull; {{ mentee.name }}, {{ mentee.institution }} ({{ mentee.year }})
+            {% endfor %}
+             &bull; 
+            </p>
+        </div>
+        {% if awards %}
+        <div>
+            <h2>Prizes and awards</h2>
+            {% for award in awards %}
+            <ul class="single-line-list">
+                <li>{{ award.title }} </li>
+                <li>({{ award.year }})</li>
+            </ul>
+            {% endfor %}
+        </div>
+        {% endif %}
+        <!-- Publication summary. TODO: write in flags for full publication list, or highlights -->
+        <div>
+            <h2>Publications</h2>
+            <p><b>{{ num_papers }} publications</b> in major peer-reviewed journals.
+                {% if pubnotes %}
+                    {{ pubnotes }}
+                {% endif %}
+            </p>
+            {% if gscholar %}
+            <p>Full list can be made upon request, or at <a href="{{ gscholar }}"><span class="ai ai-google-scholar"></span> {{ gscholar }}</a></p>
+            {% endif %}
+        </div>
+        <div>
+            <h2>Presentations and colloqiua</h2>
+            <p class="sidenote"><i class="fa fa-exclamation"></i> denotes invited talks.</p>
+            {% for talk in talks %}
+            <ul class="single-line-list" style="grid-template-columns: 0.5fr 1fr 1fr 0.3fr;">
+                <li>{{ talk.title }} </li>
+                <li><i>{{ talk.location }}</i> ({{ talk.year }})</li>
+                {% if talk.invited %}
+                <li><i class="fa fa-exclamation"></i></li>
+                {% else %}
+                <li></li>
+                {% endif %}
+            </ul>
+            {% endfor %}
+        </div>
+        {% if grants and academic %}
+        <div>
+            <h2>Successful funding proposals</h2>
+            {% for grant in grants %}
+            <ul class="single-line-list">
+                <li class="jobtitle">{{ grant.agency }} </li>
+                <li><i>{{ grant.title }}</i></li>
+                <li>({{ grant.year }}); ${{ grant.amount }}</li>
+            </ul>
+            {% endfor %}
+        </div>
+        {% endif %}
+        {% if academic %}
+        <div>
+            <h2>Synergistic activities and memberships</h2>
+            {% for activity in activities %}
+            <ul class="single-line-list">
+                <li>{{ activity.title }} </li>
+                <li>({{ activity.year }})</li>
+            </ul>
+            {% endfor %}
+            {% if reviewer %}
+            <h3>Journal reviewer</h3>
+            <div class="four-col">
+                {% for journal in reviewer %}
+                <i>{{ journal }}</i>
+                {% endfor %}
+            </div>
+            {% endif %}
+        </div>
+        {% endif %}
+        <div>
+            <h2>Selected Projects</h2>
+            {% for project in projects %}
+            <p class="jobtitle">{{ project.name }}</p>
+            <div class="three-col">
+                <p><span class="fa fa-github"></span><a href="https://github.com/{{ project.repo }}"> github: {{ project.repo }}</a></p>
+                <p>
+                {% if project.arxiv %}
+                    <span class="ai ai-arxiv"></span><a href="https://arxiv.com/abs/{{ project.arxiv }}"> arXiv: {{ project.arxiv }}</a>
+                {% endif %}
+                </p>
+                <p>{{ project.description }}</p>
+            </div>
+            {% endfor %}
+        </div>
+    </main>
+</body>
+</html>

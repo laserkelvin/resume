@@ -1,0 +1,173 @@
+verbose: false
+academic: true
+author: Kin Long Kelvin Lee
+email: kelvlee@mit.edu
+address: 60 Brainerd Road, Allston MA 02134
+phone: 857-505-9734
+linkedin: linkedin.com/in/kelvin-lee-phd/
+suffixes:
+  - PhD
+education:
+  - degree: Doctor of Philosophy
+    year: 2017
+    institution: University of New South Wales
+  - degree: Bachelor of Science (H.1)
+    year: 2013
+    institution: University of Sydney
+experience:
+- company: Massachusetts Institute of Technology
+  end: Current
+  position: Senior Postdoctoral Researcher
+  start: Aug 2020
+  description: 'Developed machine learning methodologies for automating molecule discovery and spectroscopic analysis in astrochemistry.'
+- company: Center for Astrophysics &#x7c; Harvard &amp; Smithsonian
+  end: Jul 2020
+  position: Postdoctoral Research Fellow
+  start: Feb 2017
+- company: University of New South Wales
+  end: Jan 2017
+  position: Postdoctoral Research Fellow
+  start: Aug 2016
+awards:
+  - title: IAU Laboratory Astrophysics Travel Grant
+    year: 2019
+  - title: ATA Young Scientist Prize
+    year: 2016
+  - title: RACI Physical Chemistry Division Poster Prize
+    year: 2014
+  - title: RACI Physical Chemistry Division Best Questions Prize
+    year: 2014
+  - title: University of New South Wales Postgraduate Research Student Scholarship
+    year: 2014
+  - title: Australian Postgraduate Award Scholarship
+    year: 2013–2016
+  - title: University of Sydney Postgraduate Research Student Scholarship
+    year: 2013
+teaching:
+  - course: "MIT Leadership and Professional Strategies Training"
+    description: Taught technical writing and presentation skills to graduate students and postdoctoral researchers
+    year: 2021
+  - course: University of New South Wales Postgraduate Teaching Fellow
+    description: Taught first year undergraduate chemistry in weekly tutorials
+    year: 2014–2016
+  - course: University of Sydney Chemistry Demonstrator
+    description: Supervised laboratory classes for first and third year physical chemistry
+    year: 2012–2013
+mentees:
+  - name: Dina Sharon
+    institution: MIT
+    year: 2020
+  - name: "Jacqueline Patterson"
+    institution: Indiana University
+    year: 2020
+  - name: "Vivek Vankayalapati"
+    institution: "University of Utah"
+    year: 2020
+  - name: Valentina Dell'isola
+    institution: University of Bologna
+    year: 2019
+  - name: Alexander Macleod
+    institution: UMass Lowell
+    year: 2019
+  - name: Alexander Raymond
+    institution: Harvard University
+    year: 2017–2019
+  - name: Wes Harper
+    institution: New College Florida
+    year: 2018
+  - name: Sommer Johansen
+    institution: UC Davis
+    year: 2018–2019
+  - name: Jasmine Oliveira
+    institution: UMass Boston
+    year: 2017–2018
+gscholar: https://scholar.google.com/citations?user=cB90fKUAAAAJ&hl=en
+num_papers: 35
+pubnotes: "3 papers as principal investigator, 4 in <i>Science</i> and <i>Nature</i> journals, 225 citations (9 h-index)."
+activities:
+  - title: AstroPAH technical editor
+    year: 2020–Current
+  - title: MIT Chemistry Quality of Life commitee member
+    year: 2020–Current
+  - title: Program reviewer for SciPy conferences
+    year: 2020–2021
+  - title: MIT Women in Chemistry/Chemistry Alliance for Diversity and Inclusion Symposium Mentor
+    year: 2020
+  - title: Frontiers in Astrochemistry Review Editor
+    year: 2020–Current
+reviewer:
+  - J. Phys. Chem. A
+  - J. Chem. Info.
+  - Phys. Chem. Chem. Phys.
+  - Chem. Sci.
+  - Ap. J.
+  - Ap. J. Letters
+  - Icarus
+  - J. Mol. Struct.
+projects:
+- description: Bayesian neural networks for identifying molecules from spectroscopic
+    data; published in JPCA
+  name: Molecule identification with probabilistic deep learning
+  repo: laserkelvin/rotconML
+  arxiv: 2003.12388
+- description: Combining big data and machine learning to direct discovery of new
+    molecules in astrochemistry
+  name: Cheminformatics-driven discovery of molecules with unsupervised machine learning
+  repo: laserkelvin/umda
+- description: Using Bayesian convolutional neural networks for noise-free image reconstruction
+    with model uncertainty
+  name: Deep probabilistic neural networks for charged particle image analysis
+  repo: laserkelvin/deep-ion-image
+grants:
+  - title: "High Resolution Studies of Atmospheric Aerosol Precursors: Formation, Identification, and Fate"
+    agency: Smithsonian Institution
+    amount: "73,698"
+    year: 2020
+  - title: "Computer Assisted Spectroscopy: Deep Learning Approaches to Rapid Spectral Assignment"
+    agency: Smithsonian Institution
+    amount: "38,823"
+    year: 2020
+  - title: "Understanding Interstellar Aromatic Chemistry: An Integrated Experimental, Theoretical, and Astronomical Approach"
+    agency: National Science Foundation
+    amount: "435,367"
+    year: 2019–2022
+  - title: "Understanding Interstellar Aromatic Chemistry"
+    agency: Smithsonian Institution
+    amount: "73,916"
+    year: 2018
+talks:
+  - title: Finding Unknown Unknowns with Broadband Rotational Spectroscopy
+    location: Astrochemistry Discussions
+    year: 2021
+    invited: true
+  - title: Astrochemical Forecasting with Machine Learning
+    location: Astrocheminars
+    year: 2020
+    invited: true
+  - title: "GOTHAM: A Meeting of Laboratory Spectroscopy, Observations, and Machine Learning"
+    location: Cologne, Germany
+    year: 2020
+    invited: true
+  - title: "Semi-Supervised Machine Learning for Molecular Spectroscopy"
+    location: Cologne, Germany
+    year: 2020
+    invited: true
+  - title: "Pythonic and Deep Learning Workflows for Spectroscopy"
+    location: SciPy 2020
+    year: 2020
+  - title: "Computer Assisted Spectral Analysis"
+    location: Green Bank Observatory
+    year: 2019
+    invited: true
+  - title: "Interstellar Aromatic Chemistry"
+    location: Institute des Sciences Moléculaires d’Orsay, France
+    year: 2019
+    invited: true
+  - title: "Astrochemistry in the Laboratory - Combining Theory and Experiment"
+    location: Brookhaven National Laboratories
+    year: 2018
+    invited: true
+  - title: "Laboratory Studies into Aromatic Molecule Formation in the Interstellar Medium"
+    location: University of Bristol, UK
+    year: 2018
+    invited: true

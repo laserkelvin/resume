@@ -1,21 +1,22 @@
-/*
- * Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
- *
- * CSS for making a resume with pandoc. Inspired by moderncv.
- *
- * This CSS document is delivered to you under the CC BY-SA 3.0 License.
- * https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
- */
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans&family=Playfair+Display&family=Source+Serif+Pro&display=swap');
+@import url('https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css');
+
+@page {
+    size: legal;
+    margin: 15mm 25mm 25mm 25mm;
+}
 
 /* Whole document */
 body {
-    font-family: "EB Garamond", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    width: 900px;
-    margin: auto;
+    font-family: "EB Garamond", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    width: 100%;
+    margin: 0;
     background: #FFFFFF;
     padding: 2px 2px 2px 2px;
-    font-size: 16px;
-    font-feature-settings: "smcp" on;
+    font-size: 11pt;
+    /* font-feature-settings: "smcp" on; */
     text-rendering: optimizeLegibility;
     font-weight: 400;
 }
@@ -26,28 +27,43 @@ strong {
     color: #000000;
 }
 
+h1, h2, h3, h4, h5 {
+    page-break-after: avoid;
+}
+
+/* This prevents sections from being cut off on each page */
+
+table, figure, div {
+    page-break-inside: avoid;
+}
+
+@page {
+    @bottom-left {
+        content: "Page " counter(page) " of " counter(pages);
+}
+}
+
 /* Title of the resume */
 h1 {
-    font-size: 21px;
-    font-family: "Roboto";
-    letter-spacing: 0.12em;
+    font-size: 2.5em;
+    font-family: "Source Serif Pro", "PT Sans", sans-serif;
+    letter-spacing: 0.05em;
     /* color: #f8a07e; */
-    text-transform: uppercase;
+    /* font-variant: small-caps; */
     text-align:center;
     margin-bottom:15px;
-}
-h1:hover {
-    background-color: #f8a07e;
-    color: #FFFFFF;
-    text-shadow: 1px 1px 1px #333;
+    color: #3D4D4D;
+    /* text-shadow: 1px 1px 1px #333; */
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 /* Titles of categories */
 h2 {
-    font-family: "Roboto Condensed";
-    text-transform: uppercase;
-    font-size: 18px;
-    color: #f8a07e;
+    font-family: "Open Sans";
+    /* text-transform: capitalize; */
+    font-size: 1.2em;
+    color: #6B9986;
 }
 /* There is a bar just before each category */
 h2:before {
@@ -56,17 +72,13 @@ h2:before {
     margin-right:1%;
     width: 17%;
     height: 10px;
-    background-color: #f3e79b;
-}
-h2:hover {
-    background-color: #397249;
-    color: #FFFFFF;
-    text-shadow: 1px 1px 1px #333;
+    background-color: #3D4D4D;
 }
 
 h3 {
-    font-weight: normal;
+    font-weight: bold;
     margin-bottom: 4px;
+    margin-left: 30px;
 }
 
 /* Definitions */
@@ -82,7 +94,7 @@ dd {
 }
 p {
     margin-top:0;
-    margin-bottom:7px;
+    margin-bottom: 5pt;
 }
 
 /* Blockquotes */
@@ -93,10 +105,9 @@ blockquote {
 /* Links */
 a {
     text-decoration: none;
-    font-variant: small-caps;
-    font-size: 15px;
-    font-weight: 400;
-    color: #5c53a5;
+    font-size: 1.01em;
+    font-weight: 600;
+    color: #3D4D4D;
 /*    color: #ce6693; */
 }
 a:hover, a:active {
@@ -121,6 +132,42 @@ code {
   }
 }
 
-#skills-expertise {
-  page-break-before: always;
+.single-line-list {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding-left: 6px;
+    width: 97%;
 }
+
+.single-line-list > li {
+    text-align: left;
+}
+
+.three-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+}
+
+.four-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+}
+
+.jobtitle {
+    /* font-style: italic; */
+    font-weight: 800;
+    line-height: 13px;
+}
+
+@page:right{ 
+    @bottom-left {
+      margin: 10pt 0 30pt 0;
+      border-top: .25pt solid #666;
+      content: "Resume";
+      font-size: 9pt;
+      color: #333;
+    }
+  }
